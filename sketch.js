@@ -1,8 +1,7 @@
 
 
 function setup() {
- //createCanvas(windowWidth, windowHeight);
-   createCanvas(800, 800);
+  createCanvas(800, 800);
    
  frameRate(5);
 }
