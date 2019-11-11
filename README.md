@@ -1,3 +1,3 @@
 # Nivedita
 Web:
-https://nmadigubba.github.io/Nivedita/. 
+https://nmadigubba.github.io/Nivedita/
