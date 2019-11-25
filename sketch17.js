@@ -76,7 +76,7 @@ function draw() {
      
       push();
       translate(v1.x,v1.y,v1.z);
-      line(4,11,4,22,4,99);
+      box(30);
      pop();
       
       
