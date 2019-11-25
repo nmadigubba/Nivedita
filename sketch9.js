@@ -4,31 +4,37 @@
 let counter = 0;
 
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(900, 400);
   
   
   
 }
 
 function draw() {
-  background(220);
+  background("white");
  
   
   let angle = counter;
   
   let x = counter;
-  let y1 = sin(angle*0.1) * 10;
-  let y2 = cos(angle*0.1) * 10;
-  y1 = y1 +200;
+  let y1 = sin(angle*0.1) * 70;
+  let y2 = cos(angle*0.1) * 190;
+  let y3 = cos(angle*0.1) * 150;
+  y1 = y1 +250;
   y2 = y2 +200;
+   y3 = y3 +150;
   
   if (x > width){counter = 0}
   
-  fill("red");
-      ellipse(x, y1, 50);
+  fill("orange");
+      ellipse(x, y1, 70);
 
  
-  fill("red");
-      ellipse(x, y2, 50);
+  fill("green");
+      ellipse(x, y2, 70);
+  
+  
+  fill("white");
+      ellipse(x, y3, 70);
 counter++
 }
